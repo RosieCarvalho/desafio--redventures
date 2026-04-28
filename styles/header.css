@@ -1,0 +1,36 @@
+
+.header-item{
+  display: grid; 
+  grid-template-columns: 2fr 1fr 1fr;
+  background-color: var(--lightgreen);
+}
+
+.header img{
+  height: 100%;
+  object-fit: cover;
+  object-position: top right;
+}
+
+.title-site{
+ background-image: url('../img/letf-leaves.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;  
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-site .img-logo{  
+  object-fit: contain;  
+  width: 300px;
+}
+
+.title-site h1{
+  color: var(--white);  
+   font-weight: 700;
+    font-size: 60px;
+    line-height: 48.76px;
+    max-width: 300px;
+}

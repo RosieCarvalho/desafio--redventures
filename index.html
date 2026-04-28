@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/cards.css" />
+    <link rel="stylesheet" href="./styles/plants.css" />
+    <title>Red Ventures Test</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="header-item">
+        <div class="title-site">
+          <div class="img-logo"><img src="./img/logo-white.svg" /></div>
+          <h1>
+            Find your<br />
+            next green friend
+          </h1>
+          <div><img src="./img/arow-down.svg" /></div>
+        </div>
+        <img src="./img/plantperson.png" />
+        <img src="./img/right-leaves.png" />
+      </div>
+    </section>
+    <main>
+      <section class="card-options">
+        <div>
+          <div><img src="/img/sun.png" alt="sun" /></div>
+          <p class="question">
+            <strong>1.</strong> Set the amount of <strong>sunlight</strong> your
+            plant will get
+          </p>
+          <div class="selects">
+            <div class="selected-item" tabindex="0">
+              <p id="sunSelect"></p>
+              <img src="./img/arow-down-cinza.svg" />
+              <ul class="options" data-name="sun">
+                <li id="no">No sunlight</li>
+                <li id="low">Low sunlight</li>
+                <li id="high">High sunlight</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div><img src="/img/watering.png" alt="watering" /></div>
+          <p class="question">
+            <strong>2.</strong> How often do you want to
+            <strong>water</strong> your plant?
+          </p>
+
+          <div class="selects">
+            <div class="selected-item" tabindex="0">
+              <p id="waterSelect"></p>
+              <img src="./img/arow-down-cinza.svg" />
+              <ul class="options" data-name="water">
+                <li>Select</li>
+                <li id="rarely">Rarely</li>
+                <li id="regularly">Regularly</li>
+                <li id="daily">Daily</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div><img src="/img/dog.png" alt="dog" /></div>
+          <p class="question" >
+            <strong>3.</strong> Do you have pets? Do they
+            <strong>chew</strong> plants?
+          </p>
+          <div class="selects">
+            <div class="selected-item" tabindex="0">
+              <p id="petsSelect"></p>
+              <img src="./img/arow-down-cinza.svg" />
+              <ul class="options" data-name="pets">
+                <li id="true">Yes</li>
+                <li id="false">No/They don't care</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="plants">
+        <div class="plants-cards">
+          <div><img src="./img/pick.png" alt="pick" /></div>
+          <h2>
+            Our picks<br />
+            for you
+          </h2>
+          <div class="result-plants">            
+        </div>
+      </section>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
